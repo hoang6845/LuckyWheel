@@ -23,6 +23,8 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
+import androidx.core.content.res.ResourcesCompat
+
 
 import java.util.List;
 import java.util.Random;
@@ -280,7 +282,7 @@ public class PielView extends View {
         if (textColor == 0)
             mTextPaint.setColor(isColorDark(backgroundColor) ? 0xffffffff : 0xff000000);
 
-        Typeface typeface = ResourcesCompat.getFont(getContext(), R.font.baloo2.ttf);
+        Typeface typeface = ResourcesCompat.getFont(getContext(), R.font.baloo2);
         mTextPaint.setTypeface(typeface);
         mTextPaint.setTextAlign(Paint.Align.LEFT);
         mTextPaint.setTextSize(mTopTextSize);
