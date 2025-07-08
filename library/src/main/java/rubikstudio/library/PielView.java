@@ -280,7 +280,7 @@ public class PielView extends View {
         if (textColor == 0)
             mTextPaint.setColor(isColorDark(backgroundColor) ? 0xffffffff : 0xff000000);
 
-        Typeface typeface = Typeface.create(Typeface.SANS_SERIF, Typeface.NORMAL);
+        Typeface typeface = ResourcesCompat.getFont(getContext(), R.font.baloo2.ttf);
         mTextPaint.setTypeface(typeface);
         mTextPaint.setTextAlign(Paint.Align.LEFT);
         mTextPaint.setTextSize(mTopTextSize);
