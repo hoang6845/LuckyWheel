@@ -23,7 +23,7 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
-import androidx.core.content.res.ResourcesCompat
+import androidx.core.content.res.ResourcesCompat;
 
 
 import java.util.List;
